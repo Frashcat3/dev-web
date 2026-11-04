@@ -49,4 +49,10 @@ button{
     border-radius: 4px;
     font-size: 16px;
     cursor:pointer;
+    transition: 0.3s linear;
+    /* botão, "transition" serve pra fazer ele mexer */
+}
+button:hover{
+    background-color: #2e75b6;
+    transform: translatey(-5px);
 }
