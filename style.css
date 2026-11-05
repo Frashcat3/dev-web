@@ -3,7 +3,7 @@
     --cor-card: rgb(2428,130,40);
     --cor-borda: black;
     --cor-botao:#2563eb;
-    --cor-hover:yellow;
+    --cor-hover:rgb(0, 132, 255);
     --cor-texto:white;
     --cor-principal:#8b5cf6;
 
@@ -38,6 +38,17 @@ nav a{
     color: var(--cor-texto);
     text-decoration: none;
 }
+nad a:hover{
+    color: var(--cor-principal);
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: var(--espacamento);
+    padding: 70px 8%;
+    background-color: linear-gradient(120deg, #321e81, #0f172a);
+}
 header{
     text-align: center;
     margin-bottom: 40px;
@@ -62,6 +73,8 @@ button{
     border-radius: 6px;
     cursor: pointer;
     transition: var(--transicao);
+    text-decoration: none;
+    font-size: 16px;
 }
 button:hover{
     background-color: var(--cor-hover);
